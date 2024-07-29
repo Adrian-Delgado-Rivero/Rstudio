@@ -1,0 +1,96 @@
+#############################################################
+#       Librerias                                           #
+#DATOS: Aleatorios, generados por R                         #
+#                                                           #
+#############################################################
+
+ggplot2: Librería para la creación de gráficos y visualizaciones avanzadas.
+
+dplyr: Librería para la manipulación de datos, incluyendo funciones para filtrar, seleccionar, agrupar y resumir datos.
+
+tidyr: Librería para la limpieza y transformación de datos, incluyendo funciones para la separación de variables y la expansión de datos.
+
+lubridate: Librería para el manejo de fechas y tiempos.
+
+stringr: Librería para la manipulación de cadenas de caracteres.
+
+readr: Librería para la lectura de datos desde diferentes tipos de archivos, incluyendo archivos CSV, TXT y XLSX.
+
+purrr: Librería para la programación funcional, incluyendo funciones para aplicar, mapear y filtrar datos.
+
+magrittr: Librería para la manipulación de datos en tuberías (%>%).
+
+data.table: Librería para la manipulación eficiente de grandes conjuntos de datos.
+
+caret: Librería para la construcción de modelos predictivos, incluyendo funciones para la selección de variables y la evaluación de modelos.
+
+forecast: Librería para la modelización y predicción de series de tiempo.
+
+plotly: Librería para la creación de gráficos interactivos.
+
+knitr: Librería para la creación de informes y documentos reproducibles.
+
+rmarkdown: Librería para la creación de documentos dinámicos y flexibles.
+
+shiny: Librería para la creación de aplicaciones web interactivas en R.
+
+Rcpp: Librería para la integración de R con C++, permitiendo la creación de funciones más rápidas y eficientes.
+
+MASS: Librería para el ajuste de modelos estadísticos avanzados, incluyendo modelos lineales generalizados y análisis discriminante.
+
+Matrix: Librería para la manipulación de matrices densas y dispersas, incluyendo funciones para la multiplicación de matrices y la factorización de matrices.
+
+igraph: Librería para el análisis y visualización de grafos y redes complejas.
+
+lme4: Librería para el ajuste de modelos mixtos lineales, incluyendo modelos de efectos aleatorios y modelos jerárquicos.
+
+caretEnsemble: Librería para la construcción de modelos predictivos a través de la combinación de múltiples modelos.
+
+doParallel: Librería para la ejecución de código en paralelo, permitiendo el procesamiento más rápido de grandes conjuntos de datos.
+
+tm: Librería para el análisis de textos, incluyendo la creación de nubes de palabras y el análisis de sentimiento.
+
+psych: Librería para el análisis psicométrico, incluyendo funciones para el análisis factorial y la creación de gráficos de matriz de correlación.
+
+rvest: Librería para la extracción de datos de páginas web, incluyendo funciones para la selección y extracción de elementos HTML.
+
+survival: Librería para el análisis de supervivencia y el modelado de tiempos de eventos.
+
+brms: Librería para el ajuste de modelos bayesianos, incluyendo modelos lineales y no lineales.
+
+car: Librería para el análisis de regresión y el modelado de efectos múltiples.
+
+mlr: Librería para el aprendizaje automático y la construcción de modelos predictivos, incluyendo la selección de modelos y la validación cruzada.
+
+tidytext: Librería para el análisis y visualización de datos de texto, incluyendo la tokenización y el análisis de sentimiento.
+
+caretExplorer: Librería para la exploración interactiva de modelos predictivos construidos con la librería caret.
+
+gbm: Librería para la construcción de modelos de gradiente de refuerzo, una técnica de aprendizaje automático que puede ser útil para problemas de regresión y clasificación.
+
+mclust: Librería para el agrupamiento de datos, incluyendo funciones para la identificación automática del número óptimo de clusters.
+
+sp: Librería para el análisis espacial y la manipulación de datos geográficos.
+
+zoo: Librería para la manipulación de series de tiempo, incluyendo funciones para la interpolación y la agregación de datos faltantes.
+
+
+lubridate: Librería para el manejo de fechas y tiempos, incluyendo la conversión entre diferentes formatos y la manipulación de fechas y tiempos.
+
+ggplot2: Librería para la visualización de datos, incluyendo la creación de gráficos de barras, gráficos de líneas, gráficos de puntos y muchos otros tipos de gráficos.
+
+magrittr: Librería para la creación de tuberías (pipes) en R, lo que permite escribir código más legible y fácil de entender.
+
+readxl: Librería para la importación de datos de hojas de cálculo de Excel.
+
+purrr: Librería para la programación funcional en R, lo que permite escribir código más conciso y fácil de entender.
+
+psychometric: Librería para el análisis psicométrico, incluyendo la creación de pruebas psicométricas y el análisis de datos de pruebas psicométricas.
+
+beeswarm: Librería para la visualización de datos, incluyendo la creación de gráficos de dispersión en los que los puntos se distribuyen uniformemente alrededor del eje x.
+
+gridExtra: Librería para la creación de gráficos múltiples y la combinación de gráficos en una sola figura.
+
+RColorBrewer: Librería para la creación de paletas de colores personalizadas para la visualización de datos.
+
+Hmisc: Librería para el análisis de datos clínicos y la creación de gráficos de supervivencia.
