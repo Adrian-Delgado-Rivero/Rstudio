@@ -1,0 +1,57 @@
+######paso 1: importamos base de datos######
+
+install.packages("readxl") #paquete para importar de excel  
+library("readxl")	#usamos el paquete
+file.choose() #selecciona el documento 		#dara una ruta de ubicación del documento
+#nombra la direccion del archivo en el objeto “ruta1” 
+ruta1<-("C:\\Users\\Adrian\\Documents\\UMSS\\programas\\IMPUTS\\BANCO.xls")
+BANCO_excel<-read_excel(ruta1,sheet ="BANCO")
+#objeto<-leer tipo de archivo,ruta,hoja
+
+#######paso 2: identificamos variables #######
+
+View(BANCO_excel) # ver base de datos
+# o 
+str(BANCO_excel)#vista de vector
+#class(dataset $ variable)
+summary(BANCO_excel) # estadísticas descriptivas
+##tablas de distribucion bidimencionales
+sexobd<-BANCO_excel$sexo
+sexobd
+sal_act<-BANCO_excel$salact
+sal_act
+Aestudio<-BANCO_excel$niveledu
+Aestudio
+class(sexobd)
+class(sal_act)
+class(Aestudio)
+#usamos un datda frame
+df1<-data.frame(estudio=Aestudio,sal_act=sal_act)
+df 
+df2<-data.frame(sexo=sexobd,estudio=Aestudio)
+df2
+#para educacion y sexo
+table(Aestudio,sexobd)##tabla de frecuencia
+#para educacion y salario
+table(Aestudio,sal_act)
+prop.table(table(Aestudio,sexobd))##tabla de frecuencias relativas
+prop.table(table(Aestudio,sal_act))
+
+
+###estadistica bidimencional
+##cuasi_covarianza
+df1
+cov(df1$estudio,df1$sal_act)
+df2
+cov(df2$sexo,df2$estudio)#no funciona en categoricas
+#tabla
+cov(df1)
+cov(df2)
+n=dim(df1)[1]#encontramos n
+factor_de_correccion<-((n-1)/n)
+factor_de_correccion
+factor_de_correccion*cov(df1)
+##correlacion
+cor(df1)
+cor(scale(df1))
+cor(df2)
